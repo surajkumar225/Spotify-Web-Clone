@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Web Clone</title>
+  <script src="https://kit.fontawesome.com/a9695e816d.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,500;1,600&family=Bebas+Neue&family=Caveata&fmily=Inconsolata:wght@300&family=Lobster&family=Moo+Lah+Lah&family=Padauk:wght@700&family=Prompt:wght@700&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div id="box">
+      <h1><i class="fab fa-spotify"></i>Spotify</h1>
+      <nav id="navbar">
+        <ul>
+          <li class="item"><i class="fas fa-home"></i>Home
+          </li>
+          <li class="item"><i class="fas fa-search"></i>Search
+          </li>
+          <li class="item"><i class="fas fa-book-reader"></i> Your Library
+          </li>
+          <br>
+          <li class="item"><i class="far fa-plus-square"></i>Create Playlist
+          </li>
+          <li class="item"><i class="fab fa-gratipay"></i>Liked songs
+          </li>
+        </ul>
+        <img src="http://hollywoodlife.com/wp-content/uploads/2015/10/justin-bieber-purpose-album-cover-art-see-now-ftr.jpg" alt="" >
+      </nav>
+    </div>
+  </div>
+
+  <div id="box1">
+    <button id="btn1">
+      <i class="far fa-user"></i>Surk</button>
+    <button id="btn2"><a href="https://surajkumar225.github.io/Update-Spotify/" target="_blank">UPGRADE</a></button>
+    <br>
+    <section id="home">
+      <h5 class="ver"><i class="fas fa-check-circle"></i>Verified artist</h5>
+      <h2 id="h-primary">Justin Bieber</h2>
+    </section>
+    <p id="mont">80,112,120 monthly listeners</p>    
+    <button id="btn">Follow</button>   
+    <i class="fas fa-ellipsis-h" id="ii"></i>
+    <div class="play">
+      <i class="fas fa-1x fa-play-circle"  id="masterPlay1"></i>
+    </div>
+ 
+
+    <!-- <h3>Popular</h3> -->
+
+    <div class="contain">
+      <div class="songList">
+        <h1 id="pop">Popular</h1>       
+          <div class="songItemContainer">
+            <div class="songItem">
+                <span>1<img alt="1">Let Me Love You</span>
+                <span class="songName"></span>  
+                <span id="number1">1,898,463,965</span>
+                <span class="songlistplay"><span class="timestamp">03:26 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">   
+                <span>2<img alt="1">Company</span>
+                <span class="songName"></span>
+                <span id="number2">1,487,101,695</span>
+                <span class="songlistplay"><span class="timestamp">03:28 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">
+                <span>3<img alt="1">Love Yourself</span>
+                <span class="songName"></span>
+                <span id="number3">1,718,764,223</span>
+                <span class="songlistplay"><span class="timestamp">03:53 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">
+                <span>4<img alt="1">Sorry</span>
+                <span class="songName"></span>
+                <span id="number4">1,556,559,986</span>
+                <span class="songlistplay"><span class="timestamp">03:20 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">
+                <span>5<img alt="1">Beauty And A Beat</span>
+                <span class="songName"></span>
+                <span id="number5">956,374,133</span>
+                <span class="songlistplay"><span class="timestamp">03:48 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">
+                <span>6<img alt="1">STAY(with Justin Bieber)</span>
+                <span class="songName"></span>
+                <span id="number6">1,024,487,112</span>
+                <span class="songlistplay"><span class="timestamp">02:21 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">
+                <span>7<img alt="1">Hold On</span>
+                <span class="songName"></span>
+                <span id="number7">709,763,848</span>
+                <span class="songlistplay"><span class="timestamp">02:50 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">
+                <span>8<img alt="1">What Do You Mean?</span>
+                <span class="songName"></span>
+                <span id="number8">1,264,634,354</span> 
+                <span class="songlistplay"><span class="timestamp">03:25 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">
+                <span>9<img alt="1">Anyone</span>
+                <span class="songName"></span>
+                <span id="number9">507,142,894</span> 
+                <span class="songlistplay"><span class="timestamp">03:10 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+            <div class="songItem">
+                <span>10<img alt="1">Never Say Never</span>
+                <span class="songName"></span>
+                <span id="number10">809,734,856</span> 
+                <span class="songlistplay"><span class="timestamp">03:47 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+
+
+          <!-- ***Albums***** -->
+          <h1 class="alb">Albums</h1>
+         <div class="card1">
+           <img src="https://www.euphorialive.com/wp-content/uploads/2021/05/Justin-Bieber_-Justice.jpeg" class="card-img-top" alt="JB">
+           <div class="card-body">
+             <h2 class="card-title">
+              <a href="https://open.spotify.com/album/5dGWwsZ9iB2Xc3UKR0gif2" target="_blank">Justice</a>
+             </h2>
+             <p class="card-text">
+              <a href="https://open.spotify.com/album/5dGWwsZ9iB2Xc3UKR0gif2" target="_blank">2021 | Album</a></p>            
+           </div>
+         </div>
+
+         <div class="card2">
+          <img src="https://upload.wikimedia.org/wikipedia/en/1/16/Justin_Bieber_-_Changes.png" class="card-img-top" alt="JB">
+          <div class="card-body">
+            <h2 class="card-title">
+              <a href="https://open.spotify.com/album/63iWSELt9V1kV6RSMxN7Ii" target="_blank">Changes</a>
+            </h2>
+            <p class="card-text">
+              <a href="https://open.spotify.com/album/63iWSELt9V1kV6RSMxN7Ii" target="_blank">2020 | Album</a></p>
+            </p>            
+          </div>
+        </div>
+
+        <div class="card3">
+          <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Justin_Bieber_-_Purpose_%28Official_Album_Cover%29.png" class="card-img-top" alt="JB">
+          <div class="card-body">
+            <h2 class="card-title">
+              <a href="https://open.spotify.com/album/6Fr2rQkZ383FcMqFyT7yPr" target="_blank">Purpose</a>
+            </h2>
+            <p class="card-text">
+              <a href="https://open.spotify.com/album/6Fr2rQkZ383FcMqFyT7yPr" target="_blank">2015 | Album</a></p>            
+          </div>
+        </div>
+
+        <div class="card4">
+          <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Justin_Bieber_Journals.png" class="card-img-top" alt="JB">
+          <div class="card-body">
+            <h2 class="card-title">
+              <a href="https://open.spotify.com/album/1rknZw4cyL9NInAqSwc8AA" target="_blank">Journals</a>
+            </h2>
+            <p class="card-text">
+              <a href="https://open.spotify.com/album/1rknZw4cyL9NInAqSwc8AA" target="_blank">2013 | Album</a></p>            
+          </div>
+        </div>
+
+        <div class="card5">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Believe-JB-Album.jpg/220px-Believe-JB-Album.jpg" class="card-img-top" alt="JB">
+          <div class="card-body">
+            <h2 class="card-title">
+              <a href="https://open.spotify.com/album/5cxMa6oLINJzmZ8lF7wWQN" target="_blank">Believe</a>
+            </h2>
+            <p class="card-text">
+              <a href="https://open.spotify.com/album/5cxMa6oLINJzmZ8lF7wWQN" target="_blank">2012 | Album</a></p>            
+          </div>
+        </div>
+
+        <div class="card6">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Myworld2.jpg/220px-Myworld2.jpg" class="card-img-top" alt="JB">
+          <div class="card-body">
+            <h2 class="card-title">
+              <a href="https://open.spotify.com/album/3BmcYMh0KYsimWL6p2gPa9" target="_blank">My World</a>
+            </h2>
+            <p class="card-text">
+              <a href="https://open.spotify.com/album/3BmcYMh0KYsimWL6p2gPa9" target="_blank">2010 | Album</a></p>            
+          </div>
+        </div>
+
+
+        <!-- ****Compilations****** -->
+          <h1 class="comp">Compilations</h1>
+          <div class="card7">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHG_F-11N9BxAw63aHeDI51kAW7Zw9RU7ApqaWDRtCgqrDWQNlFEgVzWZu2JARSRjj18I&usqp=CAU" class="card-img-top" alt="JB">
+            <div class="card-body">
+              <h2 class="card-title">
+                <a href="https://open.spotify.com/album/3JWRAryrKMeKlbDaiMdvoR" target="_blank">JB6</a>
+              </h2>
+              <p class="card-text">2021 | Compilation</p>            
+            </div>
+          </div>
+
+          <div class="card8">
+            <img src="https://external-preview.redd.it/v4aUgQJT9c6H1NNqC30f9RDt92dxh40v7KMxoRzua5s.jpg?width=640&crop=smart&auto=webp&s=b8de857a0aba486a166e1b1f40ce4866b0d89441" class="card-img-top" alt="JB">
+            <div class="card-body">
+              <h2 class="card-title">
+                <a href="https://open.spotify.com/album/49MZjKQcooZ8zJzMKPjbas" target="_blank">BiebsChill</a>
+              </h2>
+              <p class="card-text">2020 | Compilation</p>            
+            </div>
+          </div>
+
+          <div class="card9">
+            <img src="CoverP/comp1.png" class="card-img-top" alt="JB">
+            <div class="card-body">
+              <h2 class="card-title">
+                <a href="https://open.spotify.com/album/3vkKMmrPWuu5B5axiwylpY" target="_blank">#tBt</a>
+              </h2>
+              <p class="card-text">2020 | Compilation</p>            
+            </div>
+          </div>
+
+          <div class="card10">
+            <img src="https://images.genius.com/e95bef514b3f5d08390687973ea509ee.1000x1000x1.png" class="card-img-top" alt="JB">
+            <div class="card-body">
+              <h2 class="card-title">
+                <a href="https://open.spotify.com/album/1aQW9ioTHpbORrlixwcv2j" target="_blank">Party</a>
+              </h2>
+              <p class="card-text">2020 | Compilation</p>            
+            </div>
+          </div>
+
+          <div class="card11">
+            <img src="CoverP/comp.png" class="card-img-top" alt="JB">
+            <div class="card-body">
+              <h2 class="card-title">
+                <a href="https://open.spotify.com/album/7Fgy4IcWQY2W3bgcZ74XAK" target="_blank">Heiley'sFav</a>
+              </h2>
+              <p class="card-text">2020 | Compilation</p>            
+            </div>
+          </div>
+
+          <div class="card12">
+            <img src="https://images.genius.com/ff87672ef2382132f777911617877dff.1000x1000x1.png" class="card-img-top" alt="JB">
+            <div class="card-body">
+              <h2 class="card-title">
+                <a href="https://open.spotify.com/album/2doxS53qPZtV4AnpXFg3Bi" target="_blank">R&Bieber</a>
+              </h2>
+              <p class="card-text">2020 | Compilation</p>            
+            </div>
+          </div>
+
+<!-- ----------Singles---------- -->
+<h1 class="sing">Singles and EPs</h1>
+<div class="card13">
+  <img src="https://trendybeatz.com/images/Justin-Bieber-Ft-Omah-Lay-And-Alpha-P-Peaches-Masterkraft-Remix-Art.jpg" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/album/6gjoP9QAJ8QYDjBoVV8p0o" target="_blank">Peaches(Maste...</a>
+    </h2>
+    <p class="card-text">2021 | Single</p>            
+  </div>
+</div>
+
+<div class="card14">
+  <img src="https://i.pinimg.com/736x/06/b2/3c/06b23c61c99f6f3e31e7db7c24bb2d4c.jpg" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/album/7CMuwbRcESagTQFvKHGuYU" target="_blank">Holy(Acoustic)</a>
+    </h2>
+    <p class="card-text">2020 | Single</p>            
+  </div>
+</div>
+
+<div class="card15">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Dan_%2B_Shay_and_Justin_Bieber_-_10%2C000_Hours.png" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/album/4ow6xJwn49gpWz7iHpOzWY" target="_blank">10,000 Hours</a>
+    </h2>
+    <p class="card-text">2019 | Single</p>            
+  </div>
+</div>
+
+<div class="card16">
+  <img src="https://upload.wikimedia.org/wikipedia/en/6/69/Ed_Sheeran_%26_Justin_Bieber_-_I_Don%27t_Care.png" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/album/5Nux7ozBJ5KJ02QYWwrneR" target="_blank">I Don't Care</a>
+    </h2>
+    <p class="card-text">2019 | Single</p>            
+  </div>
+</div>
+
+<div class="card17">
+  <img src="https://i1.sndcdn.com/artworks-000624142231-3imr04-t500x500.jpg" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/album/6lMlX68jJrx67hiCqdiDvW" target="_blank">Bad guy(wit...</a>
+    </h2>
+    <p class="card-text">2019 | Single</p>            
+  </div>
+</div>
+
+<div class="card18">
+  <img src="https://s2.dmcdn.net/v/LLEMt1Tzgv0cm57v5/x1080" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/album/7huML9zDbY4thKH0xSuZTP" target="_blank">Friends(Blood...</a>
+    </h2>
+    <p class="card-text">2017 | Single</p>            
+  </div>
+</div>
+<!-- -------------------Discovered on---------------------->
+
+<h1 class="disc">Discoverd on</h1>
+<div class="card19">
+  <img src="https://i.scdn.co/image/ab67706f0000000363f30a74a1987fc97aa013b9" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX6aTaZa0K6VA" target="_blank">Pop up</a>
+    </h2>
+    <p class="card-text">Super mega hits! Foto: Harry Styles</p>            
+  </div>
+</div>
+
+<div class="card20">
+  <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_large.jpg" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" target="_blank">Top 50-Global</a>
+    </h2>
+    <p class="card-text">Your daily update of the most played trac...</p>            
+  </div>
+</div>
+
+<div class="card21">
+  <img src="CoverP/disc1.png" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX0kbJZpiYdZl" target="_blank">Hot Hits USA</a>
+    </h2>
+    <p class="card-text">The hottest track in the United States. Cover...</p>            
+  </div>
+</div>
+
+<div class="card22">
+  <img src="https://pbs.twimg.com/media/EkvyVTnU8AUBchB.png" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXbYM3nMM0oPk" target="_blank">Mega Hit Mix</a>
+    </h2>
+    <p class="card-text">A mega mix of 75 favorites from the las...</p>            
+  </div>
+</div>
+
+<div class="card23">
+  <img src="https://i.scdn.co/image/ab67616d0000b27313bc69e4fd956c68cbd72a29" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0" target="_blank">Mood Booster</a>
+    </h2>
+    <p class="card-text">Get happy with today's dose of feel-good so...</p>            
+  </div>
+</div>
+
+<div class="card24">
+  <img src="CoverP/disc2.png" class="card-img-top" alt="JB">
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5Ejj0EkURtP" target="_blank">All Out 2010s</a>
+    </h2>
+    <p class="card-text">The biggest songs of 2010s</p>            
+  </div>
+</div>
+       
+         <!-- -- ------------- -->  
+         <h1>About</h1>
+           <div class="box9">
+             <h6>.</h6>
+            <p>Justin's recent album JUSTICE includes the chart-topping global smashes "Peaches feat. Daniel Caesar & Giveon", “Holy” feat. Chance The Rapper, “Lonely” feat. Benny Blanco, “Anyone,” and “Hold On." The album also features guest...</p>         
+          </div> 
+           <!-- ------------  -->
+
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    </div>
+
+  <div class="bottom">
+    <div class="icons">
+      <i class="fas fa-1x fa-step-backward" id="previous"></i>     
+      <i class="far fa-1x fa-play-circle"   id="masterPlay"></i>
+      <i class="fas fa-1x fa-step-forward" id="next"></i>
+    </div>
+    <input type="range" class="range" id="myProgressBar" min="0" value="0" max="100">
+
+    <div class="songInfo">
+      <img src="https://thumbs.gfycat.com/CloseWhirlwindCollardlizard-size_restricted.gif" height="13px" width="13px" alt="" id="gif"> <span id="masterSongName"> </span>
+   </div>
+</div>
+
+</body>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="phone.css">
+<script src="script.js"></script>
+</html>

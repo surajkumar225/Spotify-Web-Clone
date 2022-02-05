@@ -1,0 +1,1028 @@
+*{
+   top: 0;
+   left: 0;
+   margin: 0%;
+   padding: 0%; 
+   }
+   body{
+    background-color: rgba(0, 0, 0, 0.945);
+   }
+   h1{
+    color: rgba(255, 255, 255, 0.959);
+    padding: 0px 10px;
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif; 
+   }
+   h1 i{
+     color: rgb(54, 190, 54);
+     font-size: 30px;
+     margin: 0px 4px;
+   }
+   li{
+     color: rgba(255, 255, 255, 0.671);
+     margin-right: 10px;
+   }
+   h2{
+     font-size: 4.1rem;
+     color: rgba(255, 255, 255, 0.938);
+     font-family: 'Magra', sans-serif;
+     font-weight: 900;
+     font-stretch: 90px;
+   }
+   #navbar ul li{
+     margin: 0px 20px;
+   }
+   
+   #h-primary{
+     position: absolute;
+     margin-left: 2vw;
+     padding: 21.5vh 0;   
+   }
+
+   #mont {
+     color: rgb(255, 255, 255);
+     font-family: 'Dhurjati', sans-serif;
+     font-size: 13px;
+     letter-spacing: 0.4px;
+     font-weight: 600;
+   }
+   .ver{
+     color: rgba(255, 255, 255, 0.884);
+     position: absolute;
+     margin: 123px 22px;
+     font-family: 'Lato', sans-serif;
+     font-weight: 100;
+     font-size: 12px;
+   }
+   .ver i{
+     padding: 0 5px;
+     font-size: 17px;
+     color: rgb(35, 100, 221);
+   }
+   
+   #home h2{
+     margin-top: 10px;
+   }
+   
+   #box{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.671);
+    padding: 5px 13px;
+    width: 150px;
+    height: 2900px;
+    /* height: 300vh;  */
+    display: block;
+    position: static; 
+     left: 0%;
+    top: 0%;    
+   }
+
+   #box1{
+    color: rgba(255, 255, 255, 0.925);
+    padding: 10px 27px;
+    margin: 0px 178px;
+    /* width: 81%; */
+    width: 80vw;
+    /* height: 800px; */
+    height: 136vh;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+   }
+   
+   #home{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    height: 0px;
+   }
+
+   #home::before{
+    content:"";
+    background: url('https://www.mytattoo.com/fileadmin/_processed_/6/a/csm_MyTattoo.com-JustinBieber2_47886f9e34.jpg') no-repeat center center/cover;   
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 36%;
+    width: 100%;
+    /* width: 85vw; */
+    z-index: -1;
+    opacity: 0.5;
+   }
+   
+   #navbar ul li{
+    list-style: none;
+    font-size: 12px;
+    padding: 10px 0px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+   }
+   #navbar ul li i{
+     color: rgb(49, 129, 49);
+     margin: 0px 4px;
+   }
+   #btn{
+    margin: 45px 10px;
+    margin-left: 55px;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.137);
+    border: 1px solid rgba(255, 255, 255, 0.267);
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+   }
+   #btn:hover{
+    border: 1px solid white;
+   }
+   #navbar{
+     position: sticky;
+     top: 15%;
+   }
+   html{
+     scroll-behavior: smooth;
+   }
+   #box h1{
+     position: sticky;
+     display: flex;
+     top: 5%;
+   }
+   
+   #navbar ul li:hover{
+     color: white;
+   }
+   
+   #box ul{ 
+     border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+   }
+   
+   A {text-decoration: none;}
+   
+   #btn2 a{
+     color: white;
+   }
+   
+    #btn1{  /*Surk
+     /* margin-left: 910px; */
+     margin-left: 74vw;
+     margin-top: 6px;
+     background-color: rgba(0, 0, 0, 0.425);
+     border: 1px solid rgba(0, 0, 0, 0.425);
+     color: white;
+     padding: 4px 12px;
+     border-radius: 30px;  
+     font-weight: 600;
+     font-kerning: auto;
+     font-family: 'Raleway', sans-serif;
+     cursor: pointer;
+   }
+   #btn1:hover{
+     background-color: black;
+     color: white;
+     border: 1px solid black;
+   }
+   #btn2{    /*upgrade/
+     /*margin-left: 968px;*/
+     margin-left: 65vw;
+     top: 2%;
+     display: flex;
+     position: absolute;
+     background-color: rgba(0, 0, 0, 0.425);
+     color: white;
+     border: 1px solid rgb(211, 209, 209);
+     padding: 7px 22px;
+     border-radius: 30px;
+     font-size: 10px;
+     font-weight: 700;
+     /* font-family: 'Raleway', sans-serif; */
+     cursor: pointer;
+     font-family: 'Montserrat', sans-serif;
+   letter-spacing: 2px;
+     /* letter-spacing: 1px; */
+   }
+   #btn2:hover{
+       background-color: black;
+       font-size: 11px;
+   } 
+   #btn1 i{
+     padding: 0px 3px;
+   }
+   
+   
+                                                   /* Bottom  */
+   .bottom{
+     position: sticky;
+     height: 60px;
+     -webkit-position: sticky;
+     margin: auto;    
+     background-color: rgb(24, 23, 23);
+     bottom: 0%;   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     flex-direction: column;
+   }
+   .icons{
+     margin-top: 14px;
+   }
+   .icons i{
+     cursor: pointer;
+     padding: 0 5px;
+   }
+   #myProgressBar{
+     text-align: center;
+     width: 54vw;
+   }
+   
+                                                     /* Songs */
+   .songItemContainer{
+     margin-top: 14px;
+   }
+   .songItem{
+     height: 40px;
+     display: flex;
+     background-color: rgba(0, 0, 0, 0.089);
+     /* width: 310%; */
+     width: 80vw;
+     color: rgba(255, 250, 250, 0.836);
+     margin: 12px 0;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 5px;
+     padding: 0px 7px;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+   }
+   .songItem:hover{
+     background-color: rgba(32, 31, 31, 0.966);     
+     color: white;
+   }
+   
+   .songItem img{
+     width: 39px;
+     margin: 0px 23px;
+   }
+   
+   .songList h1{
+     width: 98%;
+     padding: 10px;   
+      border-bottom: 1px solid rgba(255, 255, 255, 0.041);    
+   }
+   
+   .timeStamp{
+   margin: 0 20px;
+   }
+   
+   .timeStamp i{
+     cursor: pointer;
+   }
+   
+   .songInfo{
+     position: absolute;
+     left: 40px;       
+   }
+   .songInfo img{
+     width: 30px;
+     height: 30px;
+     padding: 12px;
+     left: 0%;
+     position: absolute;
+   }
+   
+   #navbar img{
+     width: 150px;
+     height: 220px;
+     margin: 20px;
+     top: 0%;
+     left: 0%;
+     margin-left: 0%;
+   }
+   
+   
+                                     /* Albums */
+   .alb{
+     margin: 30px 0;
+   }
+   .card1{
+   width: 10vw;
+   height: 33vh;
+   margin: 30px 0;
+   padding: 10px 10px;
+   background-color: rgba(3, 3, 3, 0.219);
+   border-radius: 5px;
+   transition: all 0.2s ease-in-out;
+   } 
+   .card1:hover{
+     background-color: rgba(32, 31, 31, 0.822);
+   }
+   .card1 img{
+     width: 10vw;
+     height: 20vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .card-body h2 {
+     display: flex;
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+     color: rgb(249, 249, 250);
+     margin: 10px;
+     font-size: 14px; 
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+   }
+   .card-title a{
+     color: white;
+   }    
+   .card-text {
+   color: rgba(255, 255, 255, 0.719);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 12px;
+   font-family: 'Montserrat', sans-serif;
+   }
+   .card-text a{
+     color: rgba(255, 255, 255, 0.719);
+   }
+   /* ##################### */
+   .card2{
+     width: 10vw;
+     height: 33vh;
+     padding: 10px 10px;
+     background-color: rgba(3, 3, 3, 0.219);
+     border-radius: 5px;
+     transition: all 0.2s ease-in-out;
+     display: block;
+     position: absolute;
+     margin-top: 1054px;
+     margin-left: 191px; 
+     } 
+     .card2:hover{
+       background-color: rgba(32, 31, 31, 0.822);
+     }
+     .card2 img{
+       width: 10vw;
+       height: 20vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     } 
+   
+     /* ######################## */
+     .card3{
+       width: 10vw;
+       height: 33vh;
+       /* margin: 30px 70px; */
+       padding: 10px 10px;
+       background-color: rgba(3, 3, 3, 0.219);
+       border-radius: 5px;
+       transition: all 0.2s ease-in-out;
+       display: block;
+       position: absolute;
+       margin-top: 1054px;
+       margin-left: 355px; 
+       } 
+       .card3:hover{
+         background-color: rgba(32, 31, 31, 0.822);
+       }
+       .card3 img{
+         width: 10vw;
+         height: 20vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       } 
+   /* ############################## */
+       .card4{
+         width: 10vw;
+         height: 33vh;
+         /* margin: 30px 70px; */
+         padding: 10px 10px;
+         background-color: rgba(3, 3, 3, 0.219);
+         border-radius: 5px;
+         transition: all 0.2s ease-in-out;
+         display: block;
+         position: absolute;
+         margin-top: 1054px;
+         margin-left: 520px; 
+         } 
+         .card4:hover{
+           background-color: rgba(32, 31, 31, 0.822);
+         }
+         .card4 img{
+           width: 10vw;
+           height: 20vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+         } 
+   /* ############################ */
+         .card5{
+           width: 10vw;
+           height: 33vh;
+           /* margin: 30px 70px; */
+           padding: 10px 10px;
+           background-color: rgba(3, 3, 3, 0.219);
+           border-radius: 5px;
+           transition: all 0.2s ease-in-out;
+           display: block;
+           position: absolute;
+           margin-top: 1054px;
+           margin-left: 685px; 
+           } 
+           .card5:hover{
+             background-color: rgba(32, 31, 31, 0.822);
+           }
+           .card5 img{
+             width: 10vw;
+             height: 20vh;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+           } 
+   /* ############################### */
+           .card6{
+             width: 10vw;
+             height: 33vh;
+             /* margin: 30px 70px; */
+             padding: 10px 10px;
+             background-color: rgba(3, 3, 3, 0.219);
+             border-radius: 5px;
+             transition: all 0.2s ease-in-out;
+             display: block;
+             position: absolute;
+             margin-top: 1054px;
+             margin-left: 850px; 
+             } 
+             .card6:hover{
+               background-color: rgba(32, 31, 31, 0.822);
+             }
+             .card6 img{
+               width: 10vw;
+               height: 20vh;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+             } 
+   
+                                           /* Compilations */
+   
+   .comp{
+     margin: 30px 0;
+   }   
+   .card7{
+     width: 10vw;
+     height: 33vh;
+     margin: 30px 0;
+     padding: 10px 10px;
+     background-color: rgba(3, 3, 3, 0.219);
+     border-radius: 5px;
+     transition: all 0.2s ease-in-out;
+     } 
+     .card7:hover{
+       background-color: rgba(32, 31, 31, 0.822);
+     }
+     .card7 img{
+       width: 10vw;
+       height: 20vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+   /* ############################*/
+   .card8{
+     width: 10vw;
+     height: 33vh;
+     padding: 10px 10px;
+     background-color: rgba(3, 3, 3, 0.219);
+     border-radius: 5px;
+     transition: all 0.2s ease-in-out;
+     display: block;
+     position: absolute;
+     margin-top: 1370px;
+     margin-left: 191px; 
+     } 
+     .card8:hover{
+       background-color: rgba(32, 31, 31, 0.822);
+     }
+     .card8 img{
+       width: 10vw;
+       height: 20vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     } 
+     /* ############################## */
+   
+     .card9{
+       width: 10vw;
+       height: 33vh;
+       /* margin: 30px 70px; */
+       padding: 10px 10px;
+       background-color: rgba(3, 3, 3, 0.219);
+       border-radius: 5px;
+       transition: all 0.2s ease-in-out;
+       display: block;
+       position: absolute;
+       margin-top: 1370px;
+       margin-left: 355px; 
+       } 
+       .card9:hover{
+         background-color: rgba(32, 31, 31, 0.822);
+       }
+       .card9 img{
+         width: 10vw;
+         height: 20vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       } 
+   /* ##################################### */
+   .card10{
+     width: 10vw;
+     height: 33vh;
+     padding: 10px 10px;
+     background-color: rgba(3, 3, 3, 0.219);
+     border-radius: 5px;
+     transition: all 0.2s ease-in-out;
+     display: block;
+     position: absolute;
+     margin-top: 1370px;
+     margin-left: 520px; 
+     } 
+     .card10:hover{
+       background-color: rgba(32, 31, 31, 0.822);
+     }
+     .card10 img{
+       width: 10vw;
+       height: 20vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     } 
+     /* ############################  */
+     .card11{
+       width: 10vw;
+       height: 33vh;
+       padding: 10px 10px;
+       background-color: rgba(3, 3, 3, 0.219);
+       border-radius: 5px;
+       transition: all 0.2s ease-in-out;
+       display: block;
+       position: absolute;
+       margin-top: 1370px;
+       margin-left: 685px; 
+       } 
+       .card11:hover{
+         background-color: rgba(32, 31, 31, 0.822);
+       }
+       .card11 img{
+         width: 10vw;
+         height: 20vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       } 
+       /* ########################### */
+       .card12{
+         width: 10vw;
+         height: 33vh;
+         padding: 10px 10px;
+         background-color: rgba(3, 3, 3, 0.219);
+         border-radius: 5px;
+         transition: all 0.2s ease-in-out;
+         display: block;
+         position: absolute;
+         margin-top: 1370px;
+         margin-left: 850px; 
+         } 
+         .card12:hover{
+           background-color: rgba(32, 31, 31, 0.822);
+         }
+         .card12 img{
+           width: 10vw;
+           height: 20vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+         }
+
+/* ---------------Singles and Eps------------------------------------- */
+
+.sing{
+  margin: 30px 0;
+}   
+.card13{
+  width: 10vw;
+  height: 33vh;
+  margin: 30px 0;
+  padding: 10px 10px;
+  background-color: rgba(3, 3, 3, 0.219);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  } 
+  .card13:hover{
+    background-color: rgba(32, 31, 31, 0.822);
+  }
+  .card13 img{
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* ################################ */
+  .card14{
+    width: 10vw;
+    height: 33vh;
+    padding: 10px 10px;
+    background-color: rgba(3, 3, 3, 0.219);
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    position: absolute;
+    margin-top: 1685px;
+    margin-left: 191px; 
+    } 
+    .card14:hover{
+      background-color: rgba(32, 31, 31, 0.822);
+    }
+    .card14 img{
+      width: 10vw;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+
+      /* ############################## */
+   
+      .card15{
+        width: 10vw;
+        height: 33vh;
+        /* margin: 30px 70px; */
+        padding: 10px 10px;
+        background-color: rgba(3, 3, 3, 0.219);
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+        display: block;
+        position: absolute;
+        margin-top: 1685px;
+        margin-left: 355px; 
+        } 
+        .card15:hover{
+          background-color: rgba(32, 31, 31, 0.822);
+        }
+        .card15 img{
+          width: 10vw;
+          height: 20vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        } 
+         /* ##################################### */
+   .card16{
+    width: 10vw;
+    height: 33vh;
+    padding: 10px 10px;
+    background-color: rgba(3, 3, 3, 0.219);
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    position: absolute;
+    margin-top: 1685px;
+    margin-left: 520px; 
+    } 
+    .card16:hover{
+      background-color: rgba(32, 31, 31, 0.822);
+    }
+    .card16 img{
+      width: 10vw;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+ /* ############################  */
+ .card17{
+  width: 10vw;
+  height: 33vh;
+  padding: 10px 10px;
+  background-color: rgba(3, 3, 3, 0.219);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  position: absolute;
+  margin-top: 1685px;
+  margin-left: 685px; 
+  } 
+  .card17:hover{
+    background-color: rgba(32, 31, 31, 0.822);
+  }
+  .card17 img{
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  /* ################################## */
+  .card18{
+    width: 10vw;
+    height: 33vh;
+    padding: 10px 10px;
+    background-color: rgba(3, 3, 3, 0.219);
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    position: absolute;
+    margin-top: 1685px;
+    margin-left: 850px; 
+    } 
+    .card18:hover{
+      background-color: rgba(32, 31, 31, 0.822);
+    }
+    .card18 img{
+      width: 10vw;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+/* -------------------------------Discovered on------------------------------------- */
+.disc{
+  margin: 30px 0;
+}   
+.card19{
+  width: 10vw;
+  height: 33vh;
+  margin: 30px 0;
+  padding: 10px 10px;
+  background-color: rgba(3, 3, 3, 0.219);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  } 
+  .card19:hover{
+    background-color: rgba(32, 31, 31, 0.822);
+  }
+  .card19 img{
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* ######################################### */
+.card20{
+  width: 10vw;
+  height: 33vh;
+  padding: 10px 10px;
+  background-color: rgba(3, 3, 3, 0.219);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  position: absolute;
+  margin-top: 2001px;
+  margin-left: 191px; 
+  } 
+  .card20:hover{
+    background-color: rgba(32, 31, 31, 0.822);
+  }
+  .card20 img{
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+    /* ############################## */
+   
+    .card21{
+      width: 10vw;
+      height: 33vh;
+      /* margin: 30px 70px; */
+      padding: 10px 10px;
+      background-color: rgba(3, 3, 3, 0.219);
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+      display: block;
+      position: absolute;
+      margin-top: 2001px;
+      margin-left: 355px; 
+      } 
+      .card21:hover{
+        background-color: rgba(32, 31, 31, 0.822);
+      }
+      .card21 img{
+        width: 10vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      } 
+        /* ##################################### */
+   .card22{
+    width: 10vw;
+    height: 33vh;
+    padding: 10px 10px;
+    background-color: rgba(3, 3, 3, 0.219);
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    position: absolute;
+    margin-top: 2001px;
+    margin-left: 520px; 
+    } 
+    .card22:hover{
+      background-color: rgba(32, 31, 31, 0.822);
+    }
+    .card22 img{
+      width: 10vw;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+     /* ############################  */
+ .card23{
+  width: 10vw;
+  height: 33vh;
+  padding: 10px 10px;
+  background-color: rgba(3, 3, 3, 0.219);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  position: absolute;
+  margin-top: 2001px;
+  margin-left: 685px; 
+  } 
+  .card23:hover{
+    background-color: rgba(32, 31, 31, 0.822);
+  }
+  .card23 img{
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+/* ################################## */
+.card24{
+  width: 10vw;
+  height: 33vh;
+  padding: 10px 10px;
+  background-color: rgba(3, 3, 3, 0.219);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  position: absolute;
+  margin-top: 2001px;
+  margin-left: 850px; 
+  } 
+  .card24:hover{
+    background-color: rgba(32, 31, 31, 0.822);
+  }
+  .card24 img{
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+   
+                                       /* About Section */
+   .box9{
+     width: 53vw;
+     height: 70vh;
+     margin: 30px 10px;
+     border-radius: 6px;
+     background: url('https://i.pinimg.com/736x/4c/4b/a3/4c4ba350fd2c7bdd5ed42b4e0c2238b4.jpg') no-repeat top center/cover;
+     transition: all 0.5s ease-in-out;
+   }  
+   .box9:hover{
+     width: 659px;
+     height: 409px;
+   }
+   .box9 p{
+     color: white;
+      margin-top: 51vh;   
+      padding: 20px 30px;
+      font-family: 'Kanit', sans-serif;
+      margin-right: 50px;
+      font-weight: 550;
+      font-size: 13px;
+      line-height: 19px;
+   }
+   h6{
+     color: black;
+   }
+   
+   /* ############################################## */
+   #number1{ 
+     width: 109px;
+     font-size: 12px;
+   }
+   #number2{
+     width: 84px;
+     font-size: 12px;
+   }
+   #number3{ 
+     width: 98px;
+     font-size: 12px;
+   }
+   #number4{ 
+     width: 68px;
+     font-size: 12px;
+   }
+   #number5{ 
+     width: 113px;
+     font-size: 12px;
+   }
+   #number6{ 
+     width: 135px;
+     font-size: 12px;
+   }
+   #number7{ 
+     width: 75px;
+     font-size: 12px;
+   }
+   #number8{ 
+     width: 118px;
+     font-size: 12px;
+   }
+   #number9{ 
+     width: 72px;
+     font-size: 12px;
+   }
+   #number10{ 
+     width: 107px;
+     font-size: 12px;
+   }
+/* ---------------------------------- */
+#masterPlay{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#masterPlay:hover{
+  color: rgba(255, 255, 255, 0.795);
+}
+
+#previous{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.363);
+}
+#previous:hover{
+  color: white;
+}
+
+#next{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.363);
+}
+#next:hover{
+  color: white;
+}
+
+#myProgressBar{
+ height: 5px;
+ margin-bottom: 15px;
+ width: 500px;
+ cursor: pointer; 
+}
+
+/* -------------------Changes hehehehehee--------------- */
+ .songInfo{
+  opacity: 0.6; 
+}
+
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+/* ------------------------Play button-------------------------- */
+#masterPlay1{
+  color: white;
+}
+.play{
+  margin-top: 304px;
+  margin-left: 20px;
+  position: absolute;
+}
+.play i{
+  font-size: 40px;
+}
+#masterPlay1{
+  color: rgb(92, 190, 92);
+  position: sticky;
+}
+#masterPlay1:hover{
+  font-size: 42px;
+}
